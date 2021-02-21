@@ -1,0 +1,184 @@
+body 
+{
+   /* taille de la police */
+font-size : 1.1rem;
+  /* police de caractére */
+font-family : 'new roman';
+}
+/* css pour mobile */
+@media screen and (min-width: 768px) 
+{ 
+/* div post sur pc */
+   .post{
+  
+      position: relative;
+      max-width: 100%;
+      width: 80%;
+   }
+   /* menu sur pc */
+   .menupc li{
+      display: inline;
+      list-style: none;
+
+   }
+
+   .banner {
+      height: 365px;
+      max-width: 100%;
+      /* ne pas répéter l'image */
+      background-repeat: no-repeat;
+      /*position de l'image*/
+      background-position: 0% 100%;
+      /*url de l'image*/
+      background-image: url('../../../src/img/promotion.jpg');
+      /* couvre la taille en largeur */
+      background-size: cover;
+      -webkit-background-size: cover;
+      }
+      
+}
+/* css pour pc */
+@media screen and (max-width: 768px) 
+{ 
+   /* on masque le menupc sur mobile */
+  
+   .menupc li{
+      display: block;
+   
+   }
+   .menuphone{
+      display: inline;
+      list-style: none;
+   }
+   .menuphone ul{
+      display: none;
+   }
+   .sidebar {
+      display:none;
+   }
+   body 
+{
+   /* taille de la police général */
+font-size : 1.2rem;
+  /* police de caractére */
+font-family : 'new roman';
+}
+/* div post pour mobile */
+.post{
+  
+   position: relative;
+   width: 100%;
+}
+
+}   
+/* colonne de droite pc */
+.sidebar {
+      position: relative;
+      padding-left: 4px;
+      margin: 16px 1px;
+      width: 20%;
+      background-color: grey;
+      border:1px transparent;
+   
+   }
+     /* h2 colonne de droite */
+   .sidebar h2 {
+    
+     font-size: 22px;
+      }
+      .sidebar aside{
+         padding: 11px 11px;
+      }  
+
+    /* logo */   
+
+.logo {
+   /*image logo en haut */
+   height: 120px;/*hauteur*/
+   width: 100%;/*largeur*/
+}
+
+/*div image du logo */
+.picturelogo {
+   width: 50%;
+   position: relative;
+   float: left;
+}
+
+/* div titre site */
+.titresite {
+   width: 50%;/*largeur*/
+   position: relative;
+   padding-top: 14px;
+   font-size: 28px;/*taille police*/
+   margin-left: 40%;/*marge sur la gauche de 40%*/
+}
+/* div image promotion largeur */
+.promo {
+   /*promo*/
+   width : 270px; /*largeur*/
+   }
+nav{
+     /* couleur arriére plan de nav */
+     background-color: black;
+     width: 100%;
+     height: auto;
+     margin: 13px 0px;
+     padding-top: 1px;
+     padding-bottom: 1px;
+}
+
+/* nav au survole */
+nav a:hover{
+   color: rgb(241, 9, 9);
+}
+
+
+a {
+     /* couleur par défaut des liens */
+   color: white;
+}
+
+  /* couleur des liens au survole */
+a:hover
+{
+   
+     color: rgb(241, 9, 9);
+}
+a:visited{
+   /* couleur des liens déjà visité */
+   color: grey;
+}
+/* largeur maximum des images  */
+img 
+{
+     max-width: 100%;
+     height: auto;
+}
+
+
+.pied{
+ 
+   
+}
+.container {
+   display: flex;
+   max-width: 100%;
+   margin: 2px 2px;
+}
+
+.menu li{
+   display: inline;
+   list-style: none;
+}
+
+
+/* épaisseur couleur des bordures du tableau */
+table, tr, td, th 
+    { 
+       border: 1px solid #000000;
+    }
+
+.imgtd{
+   width: 100px;
+}

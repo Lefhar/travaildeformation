@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr"><!--début html-->
+    <head><!--début entête-->
+    <meta charset="utf-8"/>
+    <title>Nous contacter | Jarditou</title><!--titre-->
+    <meta name="description" content="Notre entreprise familiale met tout son savoir-faire à votre disposition dans le domaine du jardin et du paysagisme" /><!--balise meta description-->
+    <meta name="keyword" content="jardinage, entreprise, paysagisme, Amiens" /><!--balise meta mot clef-->
+    <link rel="stylesheet" type="text/css"  href="jarditou_css/assets/css/styles.css?id=5" /><!--feuille de style css-->
+    <meta name="robots" content="index, follow"><!--balise meta robot  pour l'indexation-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><!--balise meta pour le responsive-->
+    </head><!--fin entête-->
+<body><!--début balise body-->
+    <header><!--début balise header-->
+        <div class="logo"><!--début div logo contenaire pour le logo et le titre-->
+            <div class="picturelogo">
+            <a href="index.html"> <img class="promo" src="src/img/jarditou_logo.jpg" alt="logo" title="logo"></a> 
+            <p>La qualité depuis 70 ans</p> 
+        </div>
+        <div class="titresite"><!--début div titre du site-->
+            Tout le jardin
+        </div><!--fin div titre du site-->
+   
+</div><!--fin de la div logo -->
+
+         <nav >
+                <ul class="menupc"><!--début balise ul -->
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="tableau.html">Tableau</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul><!--début balise ul -->
+            
+        </nav>
+        <div class="banner"></div><!-- div de la banniére promotion -->
+</header><!--fin balise header-->
+
+<div class="container"><!-- début de la div container -->
+    
+<div class="post"><!-- début de la div post -->
+<h1>Nous contacter</h1>
+
+    <article ><!-- début de la balise article -->
+   
+    <hr>
+    <p>* Ces zones sont obligatoires</p>
+    <form action="http://bienvu.net/script.php" method="post" id="formulaire_contact"> <!--balise form début du formulaire-->
+    <fieldset><!--début fieldset pour les coordonnées-->
+        <legend>Vos coordonnées</legend>
+        
+            <label for="name">Votre nom* :  </label>
+            <input type="text" id="name" name="name"  placeholder="Votre nom" value="" required><br>
+            <label for="prenom">Votre prénom* :  </label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom"  required><br>
+           
+        <p>Sexe* : </p>
+        <input type="radio" name="sexe" id="fem" value="féminin" checked>
+        <label for="fem" >Fémimin</label>
+         <input type="radio" name="sexe" id="masc"  value="masculin"  >
+         <label for="masc" >Masculin</label><br>
+         <label for="date">Date de naissance* :  </label>
+         <input type="date" id="date" name="date" required><br>
+            <label for="cp">Code postal :  </label>
+            <input type="text" id="cp" name="cp"><br>
+            <label for="adresse">Adresse :  </label>
+            <input type="text" id="adresse" name="adresse" placeholder="Votre adresse postale" ><br>
+            <label for="ville">Ville :  </label>
+            <input type="text" id="ville" name="ville"><br>
+            <label for="email">Email :  </label>
+            <input type="email" id="email" name="email" placeholder="votre Email"  required><br>
+    </fieldset><!--fin fieldset pour les coordonnées-->
+
+    <fieldset><!--début fieldset pour la demande-->
+        <legend>Votre demande</legend>
+     <label for="sujet"> Sujet* : </label>  
+     <select name="mescommandes" id="mescommandes">
+            <option value="Mes commandes">Mes commandes</option>
+            <option value="question">Question sur un produit</option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+        </select><br>
+        
+        <label for="question">Votre question* : </label>
+        <textarea name="question"  id="question" rows="2" cols="20" required></textarea><br>
+    
+    </fieldset><!--fin fieldset pour la demande-->
+    <br>
+    <input type="checkbox" id="cgu"  name="cgu" required> <label for="cgu">* J'accepte le traitement informatique de ce formulaire.</label><br>
+ 
+    <button type="submit">Envoyer</button>    <button type="reset">Annuler</button>
+</form> <!--balise form fin du formulaire-->
+    <hr>
+</article><!-- fin de la balise article -->
+</div><!-- fin de la div post -->
+<div class="sidebar"><!-- début de la div sidebar (colonne de droite)-->
+    <aside><!-- début de la balise aside -->
+        <h2>colonne droite</h2>
+        <p>blalblabla</p>
+        <h2>colonne droite</h2>
+        <p>blalblabla</p>
+        <h2>colonne droite</h2>
+        <p>blalblabla</p>
+    </aside><!-- fin de la balise aside -->
+    </div><!-- fin de la div sidebar (colonne de droite)-->
+</div><!-- fin de la div container -->
+
+    <footer class="pied"><!-- début de la balise footer -->
+         <nav>
+                  <ul class="menu"><!-- début de la balise ul du pied de page -->
+            <li><a href="mentionlegal.html">Mentions légales</a></li>
+            <li><a href="horaires.html">Horaires</a></li>
+            <li><a href="plandusite.html">Plan du site</a></li>
+                  </ul><!-- fin de la balise ul du pied de page -->
+         </nav>
+    </footer><!-- fin de la balise footer -->
+<!-- fin de la balise body -->
+</body>
+<!-- fin document html -->
+</html>

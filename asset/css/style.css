@@ -1,0 +1,61 @@
+@font-face { /* Définition d'une nouvelle police nommée CAC Champagne */
+    font-family: 'Milkshake';
+    src: url('Milkshake.otf');
+    src: url('Milkshake.otf?#iefix') format('embedded-opentype'),
+         url('Milkshake.ttf') format('truetype')
+}
+
+body{
+	background-color: #343a40!important;
+	color : white;
+	font-family: 'Milkshake', Arial, serif;
+}
+.contenu
+{
+	/* background-color: #80808094; */
+}
+.link{
+
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+a
+{
+    font-size: 1.3em;
+}
+.ardoise
+{
+	border: solid 34px #DEB887;
+    background-color: #778899;
+    padding: 16px;
+	border-radius: 19px;
+}
+#iframe{
+position : sticky;
+top : 0;
+height: 100vh;
+}
+pre  {
+  padding: 17px 26px;
+}
+pre code {
+    font-size: inherit;
+    color: inherit;
+    word-break: normal;
+    color: white;
+	padding: 14px;
+    background-color: grey;
+}
+.hljs-keyword, .hljs-selector-tag, .hljs-section, .hljs-attribute, .hljs-name, .hljs-variable {
+color: #62afff;
+}
+.hljs-string {
+    color: orange;
+}
+.hljs-var {
+    color: #b4e0f5;
+}

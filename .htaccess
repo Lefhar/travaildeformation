@@ -1,0 +1,10 @@
+<filesMatch "\.(html|css|js)$">
+AddDefaultCharset UTF-8
+DefaultLanguage fr-FR
+</filesMatch>
+RewriteEngine on
+#series streaming copies ces 2 lignes en dessous 
+RewriteBase /
+RewriteRule ^index\.html$ /index.php [L]
+RewriteRule ^exercice\.html$ /exercice.php [L]
+RewriteRule ^evaluation_javascript\.html$ /evaluation_javascript.php [L]

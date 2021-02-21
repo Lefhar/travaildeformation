@@ -1,0 +1,13 @@
+@font-face { /* Définition d'une nouvelle police nomm�e CAC Champagne */
+    font-family: 'Milkshake';
+    src: url('Milkshake.otf');
+    src: url('Milkshake.otf?#iefix') format('embedded-opentype'),
+         url('Milkshake.ttf') format('truetype')
+}
+
+body{
+	color: white;
+    background-color: #778899;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
